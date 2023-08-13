@@ -4,4 +4,4 @@ ros2_ws/log
 ros2_ws/build
 lightsfm/obj
 lightsfm/bin
-
+gazebo-classic_plugins/attachmodel/build
