@@ -1693,8 +1693,8 @@
             <model_name>actor6_collision_model</model_name>
           </model>
         </link>
-      </plugin-->
-    </actor>
+      </plugin>
+    </actor-->
 
   </world>
 </sdf>
