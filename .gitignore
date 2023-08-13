@@ -2,4 +2,6 @@
 ros2_ws/install
 ros2_ws/log
 ros2_ws/build
-gz_plugins/build
+lightsfm/obj
+lightsfm/bin
+
