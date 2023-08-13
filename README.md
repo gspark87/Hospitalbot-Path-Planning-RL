@@ -1,6 +1,6 @@
 # Hospitalbot-Path-Planning-RL
 
-###Prerequisites
+### Prerequisites
 ```bash
 cd gazebo-classic_plugins/attachmodel
 cmake ..
@@ -13,7 +13,7 @@ make
 sudo make install
 ```
 
-###Build
+### Build
 ```bash
 # The walking pedestrian plugin for Gazebo
 colcon build --packages-select gazebo_sfm_plugin
@@ -22,7 +22,7 @@ colcon build --packages-select gazebo_sfm_plugin
 colcon build --packages-select hospital_robot_spawner
 ```
 
-###Run
+### Run
 ```bash
 ros2 launch hospital_robot_spawner gazebo_world.launch.py
 ros2 launch hospital_robot_spawner start_training.launch.py
