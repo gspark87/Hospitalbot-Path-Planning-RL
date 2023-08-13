@@ -12,9 +12,6 @@ cd lightsfm
 make
 sudo make install
 ```
-- The attachmodel's source code takes from https://github.com/osrf/servicesim
-- The lightsfm takes from https://github.com/robotics-upo/lightsfm
-
 
 ### Build
 ```bash
@@ -34,3 +31,9 @@ ros2 launch hospital_robot_spawner start_training.launch.py
 ros2 launch hospital_robot_spawner gazebo_world.launch.py
 ros2 launch hospital_robot_spawner trained_agent.launch.py
 ```
+
+### Reference
+- https://github.com/osrf/servicesim
+- https://github.com/robotics-upo/lightsfm
+- https://github.com/robotics-upo/gazebo_sfm_plugin
+- https://github.com/TommasoVandermeer/Hospitalbot-Path-Planning
