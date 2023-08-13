@@ -1654,7 +1654,7 @@
     </actor>
 
     <!-- actor6 -->
-    <actor name="actor6">
+    <!--actor name="actor6">
       <pose>6 10 1.25 0 0 0</pose>
       <skin>
         <filename>walk.dae</filename>
@@ -1664,9 +1664,9 @@
         <filename>walk.dae</filename>
         <scale>1.000000</scale>
         <interpolate_x>true</interpolate_x>
-      </animation>
+      </animation-->
       <!-- SFM Plugin -->
-      <plugin name="actor6_plugin" filename="libPedestrianHSFMPlugin.so">
+      <!--plugin name="actor6_plugin" filename="libPedestrianHSFMPlugin.so">
         <velocity>0.9</velocity>
         <radius>0.4</radius>
         <animation_factor>5.1</animation_factor>
@@ -1684,16 +1684,16 @@
           <waypoint>6 10 0</waypoint>
           <waypoint>6 5 0</waypoint>
         </trajectory>
-      </plugin>
+      </plugin-->
       <!-- Enable collisions -->
-      <plugin name="actor6_collision" filename="libAttachModelPlugin.so">
+      <!--plugin name="actor6_collision" filename="libAttachModelPlugin.so">
         <link>
           <link_name>actor6_pose</link_name>
           <model>
             <model_name>actor6_collision_model</model_name>
           </model>
         </link>
-      </plugin>
+      </plugin-->
     </actor>
 
   </world>
