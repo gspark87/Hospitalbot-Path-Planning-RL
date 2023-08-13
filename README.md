@@ -12,6 +12,9 @@ cd lightsfm
 make
 sudo make install
 ```
+- The attachmodel's source code takes from https://github.com/osrf/servicesim
+- The lightsfm takes from https://github.com/robotics-upo/lightsfm
+
 
 ### Build
 ```bash
